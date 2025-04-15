@@ -18,6 +18,7 @@ namespace LibraryApp
 
         public frmMain()
         {
+        //........................................+++++++++++++++++++++++++++++++++++
             InitializeComponent();
             btnUser.Region = System.Drawing.Region.FromHrgn(Library1Utility.Design.CreateRoundRectRgn(0, 0, btnUser.Width, btnUser.Height, 20, 20));
            btnBorrow.Region = System.Drawing.Region.FromHrgn(Library1Utility.Design.CreateRoundRectRgn(0, 0, btnBorrow.Width, btnBorrow.Height, 20, 20));
