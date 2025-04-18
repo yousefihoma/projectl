@@ -10,8 +10,7 @@ using System.Windows.Forms;
 
 namespace Library1Utility
 {
-    public static class Tools
-//**************************************************************************
+    public static class Tools 
     {
         public static string GetLocalIP()
         {
