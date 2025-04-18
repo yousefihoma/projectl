@@ -30,14 +30,6 @@ namespace LibraryApp
         private void frmMain_Load(object sender, EventArgs e)
         {
 
-
-
-            //از اکستنشنهای ویندوز استفاده می شود
-            // در لود فرم مربوطه
-            // WinApi.AnimateWindow(this.Handle, 2000, WinApi.HOR_NEGATIVE);
-
-            //  در کلیک دکمه ExtensionWin extensionWin = new ExtensionWin();
-            //extensionWin.ShowDialog();
             string t = lblFine.Text;
             LblDate.Text = Convertor.ToShamsi(DateTime.Now);
             lblTitle.Text = $" سیستم مدیریت کتابخانه های عمومی - {t} ";
