@@ -18,7 +18,7 @@ namespace LibraryApp
 
         public frmMain()
         {
-        //........................................+++++++++++++++++++++++++++++++++++
+ 
             InitializeComponent();
             btnUser.Region = System.Drawing.Region.FromHrgn(Library1Utility.Design.CreateRoundRectRgn(0, 0, btnUser.Width, btnUser.Height, 20, 20));
            btnBorrow.Region = System.Drawing.Region.FromHrgn(Library1Utility.Design.CreateRoundRectRgn(0, 0, btnBorrow.Width, btnBorrow.Height, 20, 20));
@@ -148,7 +148,7 @@ namespace LibraryApp
 
         private void lblHistory_Click(object sender, EventArgs e)
         {
-            //  plnSide.Height = lblHistory.Height;
+          
             plnSide.Top = lblHistory.Top;
         }
 
@@ -166,11 +166,7 @@ namespace LibraryApp
 
         private void btnUsers_Click(object sender, EventArgs e)
         {
-            //string PcName = System.Environment.MachineName;
-            //string IP = "";
-            //IPHostEntry ipe = Dns.GetHostByName(PcName);
-            //IPAddress iPAddress = ipe.AddressList;
-            //lblFine.Text = iPAddress[0].ToString();
+    
         }
 
         private void plnTop_MouseDown(object sender, MouseEventArgs e)
